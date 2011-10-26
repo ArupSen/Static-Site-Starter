@@ -1,0 +1,106 @@
+/*
+Stylesheet for --Add website name here--
+Date: April 2009
+Author: Arup Sen
+http://arupdesigns.co.uk
+arup@arupdesigns.co.uk
+css to zero courtesy of Eric Meyer with adjustments
+No license. Use what you like.
+Happy to receive feedback :)
+*/
+
+
+
+html, body, div, span,
+applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dd, dl, dt, li, ol, ul,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	text-align: left;
+	vertical-align: baseline;
+}
+a img, :link img, :visited img {border: 0;}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;}
+ol, ul {list-style: none;}
+q:before, q:after,
+blockquote:before, blockquote:after {
+	content: "";}
+/*		after the zeroing out what next ???*/
+		
+/* COLOUR PALETTE
+
+#C9C9C9 - very pale grey
+#B0B0B0 - medium grey
+#666666 - darker grey
+#B31E00 - red
+#006276 - blue
+
+*/
+
+/* BG IMAGE PATH url('../images/my_image.gif') */
+/*the main global rules*/
+body{font-family:Arial, sans-serif;font-size:100.01%;position:relative;margin:0 auto;background-color:#FFFFFF;}
+div#wrap{}
+	
+	
+/*grouped selectors - good for position:absolute and relative*/
+
+
+/*main heading and sub heading*/
+
+
+	
+/*content area*/
+div#contents{}
+#contents p{}
+
+#contents ul, #contents h2{}
+
+#contents h2{}
+#contents li{}
+#contents a{}
+#contents a:hover{}
+
+	
+/*main navbar*/
+ul#navbar{}
+ul#navbar li{}
+	
+div#clear {clear:left;}
+ul#navbar li a{text-decoration:none;}
+
+	
+/*footer image link - arup designs*/
+#footer{}
+
+/*all the Safari stuff together*/
+@media screen and (-webkit-min-device-pixel-ratio:0){
+/*	global rules*/
+	div#wrap{overflow:hidden;}/*safari rule*/
+
+/*	navbar*/
+	
+	ul#navbar{}
+	ul#navbar li {}
+	
+
+
+/*	content area*/
+	div#contents{}
+	div#contents p{}
+	
+	
+}
