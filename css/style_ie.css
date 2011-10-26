@@ -1,0 +1,23 @@
+/*
+http://arupdesigns.co.uk
+arup@arupdesigns.co.uk
+
+additional style rules for IE Win
+can we make a concerted effort to get 
+people off this browser
+*/
+
+/*global rules*/
+div#wrap div#contents{}
+#voiceovers div#contents{}
+
+/*heading area*/
+div#wrap h1{}
+
+h2#subheading{}
+h2#subheading{}
+
+/*content area*/
+div#contents{}
+#index div#contents{}
+div#contents p {}
