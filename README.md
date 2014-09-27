@@ -9,4 +9,5 @@ A lot of the code here is basic boiler plate with as little clutter as possible 
 ## What's included
 
   * Three basic pages - home, about and contact which seem to be common on most sites.
+
 ## More to follow ...
