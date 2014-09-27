@@ -6,24 +6,32 @@ require_once INCPATH.'functions.php';
 
 $filename = basename($_SERVER['SCRIPT_FILENAME'],".php");
 include_once DATAPATH.'meta_tags.php';
+// A lot of the following is from the html5 boiler plate project with some adaptations
 ?>
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-	<meta http-equiv="X-UA-Compatible" content="IE=8" />
-	<?php // leave in during development and remove once live ?>
-	<meta name="robots" content="noindex, nofollow">
-	
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	
-	<meta name="description" content="<?php echo ${$filename}['description']; ?>" />
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<?php // leave in during development and remove once live ?>
+<meta name="robots" content="noindex, nofollow">
 
-	<title><?php echo ${$filename}['title']; ?></title>
-	<link rel="stylesheet" href="<?php echo CSSPATH.'style.css'; ?>" type="text/css" media="screen" />
-	<link rel="shortcut icon" href="<?php echo IMGPATH.'favicon.ico'; ?>" type="image/x-icon" />
+
+<title><?php echo ${$filename}['title']; ?></title>
+<meta name="description" content="<?php echo ${$filename}['description']; ?>" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<?php
+// Fontawesome and Bootstrap via bootstrapcdn which should leverage browser caching
+?>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="<?php echo CSSPATH.'style.css'; ?>" type="text/css" media="screen" />
+<link rel="shortcut icon" href="<?php echo IMGPATH.'favicon.ico'; ?>" type="image/x-icon" />
 
 </head>
 <body id="<?php echo $filename; ?>">
-	<div id="wrap">
-	<h1>--Main Heading--</h1>
+        <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+<div id="wrap">
+<h1>--Main Heading--</h1>
