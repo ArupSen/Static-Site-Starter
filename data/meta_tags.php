@@ -5,21 +5,18 @@
 
 // title - 80 characters
 // description - 255 characters
-// keywords - 1024 characters
+// keywords - no longer used by google search
 
 $index = array(
 	'title' => '',
-	'description' => '',
-	'keywords' => '');
+	'description' => '');
 	
 $about = array(
 	'title' => '',
-	'description' => '',
-	'keywords' => '');
+	'description' => '');
 	
 $contact = array(
 	'title' => '',
-	'description' => '',
-	'keywords' => '');
+	'description' => '');
 
 ?>

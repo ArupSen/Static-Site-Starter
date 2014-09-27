@@ -8,8 +8,4 @@ navbar();
 ?>
 
 
-<?php 
-// filename, title, id
-// img_tag('','',''); ?>
-
 <?php footer(); ?>

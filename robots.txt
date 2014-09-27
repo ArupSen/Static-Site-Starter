@@ -10,4 +10,3 @@ Disallow: /data/
 Disallow: /includes/
 Disallow: /inc_path.php
 Disallow: /template.php
-Disallow: /

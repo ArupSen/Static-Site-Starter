@@ -9,8 +9,6 @@ No license. Use what you like.
 Happy to receive feedback :)
 */
 
-
-
 html, body, div, span,
 applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -37,9 +35,8 @@ table {
 ol, ul {list-style: none;}
 q:before, q:after,
 blockquote:before, blockquote:after {
-	content: "";}
-/*		after the zeroing out what next ???*/
-		
+content: "";}
+
 /* COLOUR PALETTE
 
 #C9C9C9 - very pale grey
@@ -54,15 +51,15 @@ blockquote:before, blockquote:after {
 /*the main global rules*/
 body{font-family:Arial, sans-serif;font-size:100.01%;position:relative;margin:0 auto;background-color:#FFFFFF;}
 div#wrap{}
-	
-	
+
+
 /*grouped selectors - good for position:absolute and relative*/
 
 
 /*main heading and sub heading*/
 
 
-	
+
 /*content area*/
 div#contents{}
 #contents p{}
@@ -74,33 +71,30 @@ div#contents{}
 #contents a{}
 #contents a:hover{}
 
-	
+
 /*main navbar*/
 ul#navbar{}
 ul#navbar li{}
-	
+
 div#clear {clear:left;}
 ul#navbar li a{text-decoration:none;}
 
-	
+
 /*footer image link - arup designs*/
 #footer{}
 
 /*all the Safari stuff together*/
 @media screen and (-webkit-min-device-pixel-ratio:0){
-/*	global rules*/
-	div#wrap{overflow:hidden;}/*safari rule*/
+/*global rules*/
+  div#wrap{}/*safari rule*/
 
-/*	navbar*/
-	
-	ul#navbar{}
-	ul#navbar li {}
-	
+/*navbar*/
+  ul#navbar{}
+  ul#navbar li {}
 
 
-/*	content area*/
-	div#contents{}
-	div#contents p{}
-	
-	
+
+/*content area*/
+  div#contents{}
+  div#contents p{}
 }

@@ -1,4 +1,3 @@
-http:///index.php
+http://sitename.com/index.php
 http:///about.php
-
 http:///contact.php
