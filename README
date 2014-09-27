@@ -1,3 +1,0 @@
-Even when you have a simple static html site spanning only 3-4 pages it can still take time to edit and update. There are always repeating elements from page to page and from one site to the next. This is an attempt at a small framework that handles very small sites without the complexity of a fully fledged CMS.
-
-Possible ideas for a fork would be update it to HTML5. Also to add more functions to the functions file. Upgrade it from a procedureal code to OO.
