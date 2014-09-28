@@ -1,25 +1,28 @@
 <?php // mainly html shortcuts using echo statements
-// -- function.php --
+// -- functions.php --
 
-// takes three arguments of src, title and id
-// .jpg extension can be omitted
-function img_tag($src='',$title='',$id='')
+/**
+ * Creates an HTML img tag and echos it out
+ * The image has to be in the images folder
+ * No error thrown if image is not found
+ * @param string $src name of the file including file extension
+ * @param string $alt description of the image which is also copied to title attribute
+ * @param string $class option css class name or names. Already has bootstrap img-responsive class
+ **/
+function img_tag($src='',$alt='',$class='')
 {
-	echo '<img src="'.IMGPATH.$src.'" title="'.$title.'" alt="" id="'.$id.'" />';
+  echo '<img src="'.IMGPATH.$src.'" alt="'.$alt.'" title="'.$alt.'" class="img-responsive '.$class.'" />';
 }
 
-
-// include the footer
+// require the footer partial within a page template
 function footer()
 {
-	require_once INCPATH.'footer.php';
+  require_once INCPATH.'footer.php';
 }
 
-// include the navbar
+// require the navbar partial within a page template
 function navbar()
 {
-	require_once INCPATH.'navbar.php';
+  require_once INCPATH.'navbar.php';
 }
-
-
 ?>
