@@ -1,4 +1,12 @@
 /*
+ _____                         ___
+(  _  )                       (  _`\
+| (_) | _ __  _   _  _ _      | | ) |   __    ___ (_)   __    ___    ___
+|  _  |( '__)( ) ( )( '_`\    | | | ) /'__`\/',__)| | /'_ `\/' _ `\/',__)
+| | | || |   | (_) || (_) )   | |_) |(  ___/\__, \| |( (_) || ( ) |\__, \
+(_) (_)(_)   `\___/'| ,__/'   (____/'`\____)(____/(_)`\__  |(_) (_)(____/
+                    | |                              ( )_) |
+                    (_)                               \___/'
 Stylesheet for --Add website name here--
 Date: April 2009
 Author: Arup Sen
@@ -83,6 +91,9 @@ ul#navbar li a{text-decoration:none;}
 /*footer image link - arup designs*/
 #footer{}
 
+/* small screens */
+@media (max-width: 767px) {
+}
 /*all the Safari stuff together*/
 @media screen and (-webkit-min-device-pixel-ratio:0){
 /*global rules*/
